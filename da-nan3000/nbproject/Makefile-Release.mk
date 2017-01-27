@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/46f50484/daemonServer.o
+	${OBJECTDIR}/daemonServer.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/da-nan3000: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/da-nan3000 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/_ext/46f50484/daemonServer.o: ../../../../Documents/Dropbox/DA-NAN3000/Thomas\ sin\ del/daemonServer.c
-	${MKDIR} -p ${OBJECTDIR}/_ext/46f50484
+${OBJECTDIR}/daemonServer.o: daemonServer.c
+	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/46f50484/daemonServer.o ../../../../Documents/Dropbox/DA-NAN3000/Thomas\ sin\ del/daemonServer.c
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/daemonServer.o daemonServer.c
 
 # Subprojects
 .build-subprojects:
