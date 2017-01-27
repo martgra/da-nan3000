@@ -12,8 +12,14 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/daemonServer.c</itemPath>
-      <itemPath>../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot</itemPath>
+    </logicalFolder>
+    <logicalFolder name="webroot" displayName="webroot" projectFiles="true">
+      <logicalFolder name="text" displayName="text" projectFiles="true">
+        <logicalFolder name="html" displayName="html" projectFiles="true">
+          <itemPath>../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot/text/html/index.asis</itemPath>
+          <itemPath>../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot/text/html/index.html</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -26,7 +32,11 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/daemonServer.c</itemPath>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
@@ -42,7 +52,12 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot"
+      <item path="../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot/text/html/index.asis"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot/text/html/index.html"
             ex="false"
             tool="3"
             flavor2="0">
@@ -73,7 +88,12 @@
             tool="0"
             flavor2="0">
       </item>
-      <item path="../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot"
+      <item path="../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot/text/html/index.asis"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../../Documents/Dropbox/DA-NAN3000/Thomas sin del/webroot/text/html/index.html"
             ex="false"
             tool="3"
             flavor2="0">
